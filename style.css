@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(211, 211, 211);
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Navigation styling */
+
+.nav-background-color{
+    background-color: rgb(211, 211, 211);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* navigation ending */
+
+/* Hero */
+
+.hero-img{
+    background-image: url(img/welcome-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    position: relative;
+}
+
+.hero-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-font-size{
+    font-size: 50px;
+}
+
+/* Hero ending */
+
+/* Main article start */
+
+/* .main-article-background{
+    background-color: rgb(245, 245, 245);
+} */
+
+.main-article{
+    background-color: rgb(245, 245, 245);
+}
+
+.main-article-header{
+    display: flex;
+    align-items: center;
+}
+
+.main-image-object-fit{
+    height: 100%;
+   object-fit: cover; 
+}
+
+/* Main article ending */
+
+/* Related article start */
+
+.related-article{
+    background-color: rgb(245, 245, 245);
+}
+
+.icon-width{
+    font-size: 1300%;
+}
+
+/* Related article ending */
+
+/* Footer start */
+
+.e-mail{
+    background-color: rgb(255, 255, 255);
+}
+
+/* Footer ending */
